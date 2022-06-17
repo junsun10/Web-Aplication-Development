@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Dot', 'Nanum Gothic', sans-serif;
+}
+
+body {
+  width: 1300px;
+  margin: auto;
+}
+canvas {
+  display: block;
+}
+@font-face {
+  font-family: Dot;
+  src: url(./data/DOTFONT-.TTF);
+}
+
+.navBox {
+  width: 100%;
+  padding: 0 150px;
+}
+
+#home {
+  width: 400px;
+  height: 100px;
+  font-size: 50px;
+  padding-left: 30px;
+}
+#home a{
+  height: 100px;
+  line-height: 130px;
+  text-decoration: none;
+}
+.navList {
+  float: right;
+  margin-bottom: 30px;
+  margin-top: -40px;
+}
+.navList li {
+  float: left;
+  list-style: none;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 50px;
+  margin: 0 15px;
+  
+}
+.navList a,button {
+  text-decoration: none;
+  transition: color .2s;
+}
+.navList a:hover,button:hover {
+  color: rgb(255, 55, 55);
+}
+button {
+  font-family: 'Dot', 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+  padding: 5px;
+}
+
+
+#container {
+  width: 1000px;
+  margin: 0 150px;
+}
+#defaultCanvas0 {
+  border: solid;
+  border-color: white;
+}
+
